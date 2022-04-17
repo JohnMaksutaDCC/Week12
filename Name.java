@@ -37,7 +37,10 @@ public class Name {
 	public void setLast(String last) {
 		this.last = last;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return first + " " + last;
+	}
 
 }

@@ -8,6 +8,7 @@ public class Pair<S1, T> {
 		second = secondItem;
 	}
 
+	@Override
 	public String toString() {
 		return "(" + first + "," + second + ")";
 	}
